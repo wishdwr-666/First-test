@@ -1,0 +1,84 @@
+[
+  {
+    "conditionId": "C001",
+    "conditionName": "普通感冒/上呼吸道感染",
+    "symptomIds": ["S001", "S002", "S003", "S004"],
+    "tags": ["感冒", "上呼吸道"],
+    "advice": ["多喝水，注意休息", "如持续高热或呼吸困难，及时就医"],
+    "redFlags": ["高热不退(>3天)", "胸痛/呼吸困难", "意识异常"],
+    "confidenceBase": 0.72
+  },
+  {
+    "conditionId": "C002",
+    "conditionName": "流感样症状",
+    "symptomIds": ["S001"],
+    "tags": ["流感"],
+    "advice": ["体温>38.5℃可对症退热", "注意观察伴随症状"],
+    "redFlags": ["高烧不退", "明显乏力/呼吸急促"],
+    "confidenceBase": 0.58
+  },
+  {
+    "conditionId": "C003",
+    "conditionName": "过敏性鼻炎/过敏反应",
+    "symptomIds": ["S003", "S008"],
+    "tags": ["过敏", "鼻炎"],
+    "advice": ["尽量避免可疑过敏原", "如出现喘鸣/喉头水肿等，立即就医"],
+    "redFlags": ["呼吸困难", "喉头紧缩", "全身风团伴头晕"],
+    "confidenceBase": 0.7
+  },
+  {
+    "conditionId": "C004",
+    "conditionName": "急性胃肠炎/肠胃不适",
+    "symptomIds": ["S005", "S006"],
+    "tags": ["肠胃", "胃肠炎"],
+    "advice": ["补液，少量多次进食", "如便血、持续呕吐或脱水，及时就医"],
+    "redFlags": ["便血/黑便", "明显脱水", "持续呕吐"],
+    "confidenceBase": 0.68
+  },
+  {
+    "conditionId": "C005",
+    "conditionName": "胃食管反流/反酸",
+    "symptomIds": ["S006"],
+    "tags": ["反酸", "烧心"],
+    "advice": ["避免辛辣油腻与睡前进食", "症状频繁或胸痛需排除心源性"],
+    "redFlags": ["胸痛放射", "吞咽困难", "呕血"],
+    "confidenceBase": 0.62
+  },
+  {
+    "conditionId": "C006",
+    "conditionName": "头痛（紧张性/偏头痛可能）",
+    "symptomIds": ["S007"],
+    "tags": ["头痛"],
+    "advice": ["注意补水与休息", "如突发剧烈头痛或伴神经症状，立即就医"],
+    "redFlags": ["雷击样头痛", "肢体无力/言语不清", "发热伴颈强直"],
+    "confidenceBase": 0.66
+  },
+  {
+    "conditionId": "C007",
+    "conditionName": "眼疲劳/干眼",
+    "symptomIds": ["S009"],
+    "tags": ["干眼"],
+    "advice": ["遵循20-20-20护眼法", "如明显红痛或视力下降，及时就医"],
+    "redFlags": ["视力突然下降", "剧烈眼痛", "畏光流泪"],
+    "confidenceBase": 0.74
+  },
+  {
+    "conditionId": "C008",
+    "conditionName": "失眠/睡眠节律紊乱",
+    "symptomIds": ["S010"],
+    "tags": ["睡眠"],
+    "advice": ["减少咖啡因与屏幕刺激", "持续失眠建议评估压力与情绪"],
+    "redFlags": ["严重焦虑抑郁", "持续多日不眠"],
+    "confidenceBase": 0.63
+  },
+  {
+    "conditionId": "C009",
+    "conditionName": "口腔溃疡（复发性阿弗他）",
+    "symptomIds": ["S011"],
+    "tags": ["口腔"],
+    "advice": ["避免辛辣刺激", "超过2周不愈或反复发作建议就医"],
+    "redFlags": ["溃疡>2周", "明显体重下降"],
+    "confidenceBase": 0.7
+  }
+]
+
